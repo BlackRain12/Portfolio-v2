@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wgt@300;400;500;600;700;800;900&display=swap");
+*{
+  font-family: "Poppins", sans-serif;
+}
+.nav-link {
+    color: #333; 
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: green; 
+    background-color: rgba(0, 123, 255, 0.1);
+    border-radius: 5px; 
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }  
+  
+   html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .content{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 150px;
+    color: green;
+  }
+  .content h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.content p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+/* Ensure button inside <a> tag maintains styling */
+a.btn {
+  display: inline-block; /* Ensures button behaves like a block element inside <a> */
+}
+
+/* Optional: Adjust button size if needed */
+.card .btn {
+  width: 100%; /* Ensures the button takes the full width of its container */
+}
+
+  
+.parallax {
+    background-image: url("2.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+  
+
+  .content-section {
+    background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
+    padding: 20px;
+    text-align: center;
+  }
+  .flex-container {
+    /* display: flex;           */
+    justify-content: center;   /* Centers images horizontally */
+    align-items: center;       /* Aligns images vertically */
+    gap: 20px;                 /* Space between the cards */
+    padding: 20px;
+}
+
+.button-container {
+    text-align: center;        /* Centers the button horizontally */
+    margin-top: 0px;          /* Adds some space between the images and the button */
+}
+
+/* Ensure the parallax background works and the section has a proper height */
+.parallax {
+    background-image: url("2.png");  /* Replace with your background image */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 18rem; /* Adjust the card width if needed */
+}
+.contact-section {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #111;  
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerBottom p {
+  color: white;
+}
+
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media(max-width:700px) {
+  .footerNav ul {
+      flex-direction: column;
+  }
+  .footer ul li {
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  }
+}
