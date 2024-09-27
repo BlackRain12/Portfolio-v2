@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <title>Home</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100" style="top: 0; z-index: 1030;">
+
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" class="img-fluid" alt="..." width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="hamburger.jpg" alt="Menu" width="30" height="30">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+       
+ <!-- Parallax Section 1 -->
+ <section class="parallax" id="section1">
+    <div class="content">
+        <h1>David Siaw-Darfour</h1>
+        <p> Aspiring System Administrator|Pentester|Cloud Engineer</p>
+        <br>
+    
+       <a href="My Cv.pdf" download> <button type="button" class="btn btn-outline-success">Download Resume</button></a>
+    </div>
+</section>
+
+<!-- Your content sections -->
+
+<section class="content-section">
+  <div class="row bg-light">
+      <div class="col-lg-12 container-fluid">
+          <h3 class="text-center mb-4">My Skills</h3>
+          <div class="d-flex justify-content-center">
+              <div class="row">
+
+                  <!-- Web Development Skill -->
+                  <div class="col-md-4 d-flex justify-content-center">
+                      <div class="card mb-4 text-center">
+                          <div class="card-body">
+                              <h5 class="card-title">Web Development</h5>
+                              <p class="card-text">Proficient in HTML, CSS, JavaScript,Bootstrap.</p>
+                              <div class="progress">
+                                  <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- Pentesting Skill -->
+                  <div class="col-md-4 d-flex justify-content-center">
+                      <div class="card mb-4 text-center">
+                          <div class="card-body">
+                              <h5 class="card-title">Pentesting</h5>
+                              <p class="card-text">Experienced in conducting vulnerability assessments and penetration tests to enhance security.</p>
+                              <div class="progress">
+                                  <div class="progress-bar bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- IT Support Skill -->
+                  <div class="col-md-4 d-flex justify-content-center">
+                      <div class="card mb-4 text-center">
+                          <div class="card-body">
+                              <h5 class="card-title">IT Support</h5>
+                              <p class="card-text">Skilled in providing technical support and troubleshooting hardware and software issues.</p>
+                              <div class="progress">
+                                  <div class="progress-bar bg-info" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+<!-- Parallax Section 2 -->
+<!-- Parallax Section 2 -->
+<section class="parallax" id="section2">
+  <!-- Title centered on top -->
+  <!-- <h2 class="text-center text-white mb-4">My Projects</h2> -->
+
+  <div class="container">
+    <div class="row">
+      <!-- Left Column: Carousel -->
+      <div class="col-md-6">
+        <div id="projectCarousel" class="carousel slide w-100" data-bs-ride="carousel" style="height: auto;">
+          <div class="carousel-inner">
+            <!-- First Carousel Item -->
+            <div class="carousel-item active">
+              <img src="project1.jpg" class="d-block w-100" alt="Website Pentesting" style="object-fit: contain; max-height: 250px;">
+            </div>
+
+            <!-- Second Carousel Item -->
+            <div class="carousel-item">
+              <img src="project2.png" class="d-block w-100" alt="Active Directory Lab" style="object-fit: contain; max-height: 250px;">
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Column: Image Descriptions -->
+      <div class="col-md-6 d-flex align-items-center">
+        <div id="projectDescription" class="text-white">
+          <!-- First Description (For Project 1) -->
+          <div class="description active">
+            <h3 class="fw-bold">Website Pentesting</h3>
+            <p class="lead">Run a penetration test on a cutemesh website to identify potential vulnerabilities and improve security measures.</p>
+          </div>
+
+          <!-- Second Description (For Project 2) -->
+          <div class="description">
+            <h3 class="fw-bold">Active Directory Lab</h3>
+            <p class="lead">Set up an Active Directory lab to effectively manage users, groups, and permissions in a corporate environment.</p>
+            <a href="Projects.html" class="btn btn-outline-light mt-3">Explore More Projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Custom CSS -->
+<style>
+  /* Title styling */
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  /* Ensuring the carousel and the description are proportional */
+  .carousel-inner img {
+    object-fit: contain; /* Keeps aspect ratio and ensures image doesn't stretch */
+    max-height: 250px; /* Limits the height of the images */
+  }
+
+  /* Style for the description box */
+  #projectDescription h3 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+
+  #projectDescription p {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .description.active {
+    display: block;
+  }
+</style>
+
+<!-- Custom JS to Sync Carousel with Descriptions -->
+<script>
+  const carousel = document.getElementById('projectCarousel');
+  const descriptions = document.querySelectorAll('#projectDescription .description');
+
+  carousel.addEventListener('slide.bs.carousel', function (event) {
+    // Hide all descriptions
+    descriptions.forEach(description => description.classList.remove('active'));
+
+    // Show the current description based on the carousel index
+    descriptions[event.to].classList.add('active');
+  });
+</script>
+
+
+
+
+
+
+<!-- More content sections -->
+<section class="content-section">
+    <h2 style="color: green;">Get in Touch</h2>
+            <p style="color: green;"> Interested in working together? Let's connect!</p>
+            <a href="Contact.html"><button type="button" class="btn btn-outline-success">Contact Me</button></a>
+</section>
+<footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+        <a href="https://www.facebook.com/david.darfour?mibextid=rS40aB7S9Ucbxw6v"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/jedi_frce/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/BlackRain12"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/david-darfour-463798196?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="http://www.youtube.com/@thegamewizarder"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Projects.html"> Projects</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by <span class="designer">Orion</span></p>
+    </div>
+</footer> 
+<!-- Link to external JavaScript file -->
+<script src="script.js"></script>
+      
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>
